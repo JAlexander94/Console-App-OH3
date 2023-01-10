@@ -24,7 +24,7 @@ https://jalexander94.github.io/Console-Finances/
 
 An alart shoudl pop up automaticaly on entry to the page providing the user with an overview of the businesses financials
 If the user clicks ok the alert will disappear, to get the message again reload the page
-![screenshot of the webpage with the alert](images/Screenshot%202023-01-10%20at%2021.09.43.png)
+![screenshot of the webpage with the alert]("images/Screenshot%202023-01-10%20at%2021.09.43.png")
 
 ## License
 

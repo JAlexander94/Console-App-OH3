@@ -18,7 +18,7 @@ The project specifically wanted an alert which showed each of the following piec
 
 Click the link to run the website
 
-
+https://jalexander94.github.io/Console-Finances/
 
 ## Usage
 

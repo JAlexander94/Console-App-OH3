@@ -1,4 +1,5 @@
-var finances = [
+// data for analysis
+let finances = [
 ['Jan-2010', 867884],
 ['Feb-2010', 984655],
 ['Mar-2010', 322013],
@@ -87,18 +88,21 @@ var finances = [
 ['Feb-2017', 671099]
 ];
 
-var datearray = [];
-var profarray = [];
-var profchange = [];
+//create open arrays to place split up 2d array into
+let datearray = [];
+let profarray = [];
+let profchange = [];
 
-for (var i =0;i<finances.length;i++) {
+// for loops to split up 2d array to get a date array, profit array and change in profit array
+for (let i =0;i<finances.length;i++) {
     datearray.push(finances[i][0])
     profarray.push(finances[i][1])
 };
-for (var i =0;i<(profarray.length-1);i++) {
+for (let i =0;i<(profarray.length-1);i++) {
     profchange.push((profarray[i+1]-profarray[i]))
 };
 
+// calculations using teh aboev arrays to get the numbers remembering to add +1 to the profits change array as it starts on the second month
 number = finances.length;
 let sumprof = profarray.reduce(function(a, b){return a + b});
 let sumchange = profchange.reduce(function(a, b){return a + b});
@@ -111,12 +115,5 @@ let maxdate = datearray[maxindex+1];
 let minindex = profchange.indexOf(minprof);
 let mindate = datearray[minindex+1];
 
+//display the financial information using an alert
 alert("Financial Analysis\n----------------------------\nTotal Months: "+number+"\nTotal: $"+sumprof+"\nAverage Change: $"+avgchange+"\nGreatest Increase in Profits: "+maxdate+" ($"+maxprof+")"+"\nGreatest Decrease in Profits: "+mindate+" ($"+minprof+")")
-
-console.log(number);
-console.log(sumprof);
-console.log(avgchange);
-console.log(maxprof);
-console.log(minprof);
-console.log(maxdate);
-console.log(mindate);

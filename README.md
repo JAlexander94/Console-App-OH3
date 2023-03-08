@@ -23,7 +23,7 @@ https://jalexander94.github.io/Console-Finances/
 ## Usage
 
 When the user navigates to teh website and opens the console an overview of the businesses financials should show in the console
-![screenshot of the webpage with the console open](https://github.com/JAlexander94/Console-Finances/blob/main/Images/Screenshot%202023-01-10%20at%2021.09.43.png)
+![screenshot of the webpage with the console open](https://github.com/JAlexander94/Console-Finances/blob/main/Images/Screenshot%202023-03-08%20at%2013.40.47.png)
 
 ## License
 

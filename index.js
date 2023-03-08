@@ -115,5 +115,5 @@ let maxdate = datearray[maxindex+1];
 let minindex = profchange.indexOf(minprof);
 let mindate = datearray[minindex+1];
 
-//display the financial information using an alert
-alert("Financial Analysis\n----------------------------\nTotal Months: "+number+"\nTotal: $"+sumprof+"\nAverage Change: $"+avgchange+"\nGreatest Increase in Profits: "+maxdate+" ($"+maxprof+")"+"\nGreatest Decrease in Profits: "+mindate+" ($"+minprof+")")
+//display the financial information using a console.log
+console.log("Financial Analysis\n----------------------------\nTotal Months: "+number+"\nTotal: $"+sumprof+"\nAverage Change: $"+avgchange+"\nGreatest Increase in Profits: "+maxdate+" ($"+maxprof+")"+"\nGreatest Decrease in Profits: "+mindate+" ($"+minprof+")")

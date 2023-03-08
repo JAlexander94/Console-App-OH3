@@ -22,9 +22,8 @@ https://jalexander94.github.io/Console-Finances/
 
 ## Usage
 
-An alart shoudl pop up automaticaly on entry to the page providing the user with an overview of the businesses financials
-If the user clicks ok the alert will disappear, to get the message again reload the page
-![screenshot of the webpage with the alert](https://github.com/JAlexander94/Console-Finances/blob/main/Images/Screenshot%202023-01-10%20at%2021.09.43.png)
+When the user navigates to teh website and opens the console an overview of the businesses financials should show in the console
+![screenshot of the webpage with the console open](https://github.com/JAlexander94/Console-Finances/blob/main/Images/Screenshot%202023-01-10%20at%2021.09.43.png)
 
 ## License
 
